@@ -102,6 +102,8 @@ public class MapLayoutTask extends AbstractTask {
 			targetNodeView.setVisualProperty(BasicVisualLexicon.NODE_Z_LOCATION, z);
 
 		}
+
+		toNetworkView.updateView();
 	}
 
 	private List<String> getColumnNames(CyNetworkView netView) {
